@@ -1,7 +1,7 @@
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormField } from '@angular/material/form-field';
 import { MatLabel } from '@angular/material/form-field';
-import { PeriodicElement } from '../../views/home/home.component';
+
 
 import { Component, Inject } from '@angular/core';
 import {
@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { NgIf } from '@angular/common';
+import { PeriodicElement } from '../../models/PeriodicElement';
 
 @Component({
   selector: 'app-element-dialog',
